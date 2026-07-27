@@ -1,66 +1,93 @@
 # 💻 Tech Product Showcase
 
-A simple **Tech Product Showcase** website developed using **HTML5** as part of a Web Technologies laboratory project. The website presents modern technology products with detailed specifications, comparison tables, customer reviews, FAQs, and a contact form.
+A simple **Tech Product Showcase Website** developed using **HTML5**.  
+This project displays modern technology products in a structured format with product details, images, media content, and a contact form.
 
-## 📌 Features
+---
 
-- 🏠 Home page with product showcase
-- 💻 Featured products with images and specifications
-- 📊 Product comparison table
-- ⭐ Customer reviews section
-- ❓ Frequently Asked Questions (FAQ)
-- 📞 Contact form
-- 🔗 Navigation between multiple pages
-- 🖼️ Product images
-- 📋 HTML tables, lists, forms, and hyperlinks
-- 📝 Semantic HTML5 elements
+## 📌 Project Description
+
+The Tech Product Showcase website is designed to present different technology products such as laptops, smartphones, smart watches, headphones, and drones.
+
+The website provides users with product information, pricing details, images, videos, and inquiry options through a simple and organized interface.
+
+---
+
+## ✨ Features
+
+- Home page with introduction and navigation
+- Product listing with images and prices
+- Product details page
+- Image gallery and video section
+- PDF brochure display
+- Contact and inquiry form
+- Product search interface
+- Simple and user-friendly layout
+
+---
+
+## 🛠️ Technologies Used
+
+| Technology | Purpose |
+|------------|---------|
+| HTML5 | Creating webpage structure |
+| HTML Tables | Organizing product details |
+| HTML Forms | Collecting user information |
+| HTML Multimedia | Adding images, videos, and documents |
+
+---
 
 ## 📂 Project Structure
 
 ```
-Tech-Product-Showcase/
+Tech-Product-Showcase
 │
-├── index.html
-├── products.html
-├── comparison.html
-├── reviews.html
-├── contact.html
+├── index.html          # Home page
+├── products.html       # Product details page
+├── media.html          # Images, video and brochure
+├── contact.html        # Contact form
 │
-└── images/
+└── media               # Product images
     ├── Laptop.jpg
     ├── Phone.jpg
-    ├── Smartwatch.jpg
-    └── Headphones.jpg
+    ├── Smart_Watch.jpg
+    ├── Headphones.jpg
+    └── Drone.jpg
 ```
 
-## 🛠️ Technologies Used
-
-- HTML5
+---
 
 ## ▶️ How to Run
 
-1. Download or clone this repository.
+1. Download or clone the repository.
 2. Open the project folder.
-3. Double-click `index.html` or open it in any web browser.
-4. Navigate through the pages using the navigation menu.
+3. Open `index.html` using any web browser.
+4. Explore different pages using the navigation menu.
 
-## 🎯 Learning Outcomes
+---
 
-- Developed a multi-page website using HTML5.
-- Used semantic HTML elements for better structure.
-- Implemented tables, forms, lists, images, and hyperlinks.
-- Created a simple product showcase without CSS or JavaScript.
+## 🎯 Concepts Implemented
 
-## 📸 Project Preview
+- HTML5 document structure
+- Headings and paragraphs
+- Tables and lists
+- Hyperlinks for navigation
+- Image insertion
+- Forms and input elements
+- Multimedia embedding
 
-Home Page:
-- Welcome section
-- Featured products
-- Product comparison
-- Customer reviews
-- FAQ
-- Contact form
+---
 
-## 👨‍💻 Author
+## 🚀 Future Improvements
 
-**Pradeeba R S - URK24CS1270**
+- Add CSS for better design and responsiveness
+- Add JavaScript for interactive features
+- Implement real-time search functionality
+- Connect forms with a database
+
+---
+
+## 👩‍💻 Author
+
+**Pradeeba R S**
+
