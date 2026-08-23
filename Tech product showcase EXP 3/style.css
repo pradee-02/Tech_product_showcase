@@ -1,0 +1,289 @@
+/* ------------------------------
+   General Styling
+------------------------------ */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f6fa;
+    color: #222;
+}
+
+
+/* ------------------------------
+   Header
+------------------------------ */
+
+header {
+    background-color: #172b4d;
+    color: white;
+    text-align: center;
+
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    margin: 0;
+}
+
+header h1 {
+    font-family: Georgia, serif;
+    font-size: 40px;
+    letter-spacing: 3px;
+    text-shadow: 3px 3px 5px black;
+}
+
+header p {
+    font-size: 18px;
+    font-style: italic;
+}
+
+
+/* ------------------------------
+   Navigation
+------------------------------ */
+
+nav {
+    background-color: #263b5a;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 5px;
+}
+
+
+/* Link pseudo-classes */
+
+nav a:link {
+    background-color: #263b5a;
+}
+
+nav a:visited {
+    background-color: #34495e;
+}
+
+nav a:hover {
+    background-color: #3498db;
+}
+
+nav a:active {
+    background-color: #e74c3c;
+}
+
+
+/* ------------------------------
+   Introduction
+------------------------------ */
+
+.intro {
+    background-color: white;
+
+    margin: 30px auto;
+    padding: 25px;
+
+    width: 90%;
+    max-width: 1000px;
+
+    text-align: center;
+
+    border-radius: 10px;
+}
+
+.intro h2 {
+    color: #1d5d9b;
+    font-size: 28px;
+}
+
+.intro p {
+    line-height: 1.6;
+    letter-spacing: 0.5px;
+}
+
+
+/* ------------------------------
+   Section Title
+------------------------------ */
+
+.section-title {
+    text-align: center;
+    color: #172b4d;
+    font-size: 30px;
+
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+
+
+/* ------------------------------
+   Products - Normal Flow
+------------------------------ */
+
+.products {
+    width: 90%;
+    margin: auto;
+}
+
+
+/*
+   Normal flow:
+   Each product appears one after another
+   in the normal document flow.
+*/
+
+.product {
+    background-color: white;
+
+    width: 100%;
+    min-height: 200px;
+
+    margin-bottom: 20px;
+    padding: 25px;
+
+    border-left: 6px solid #3498db;
+    border-radius: 8px;
+}
+
+.product h3 {
+    color: #1d5d9b;
+    font-size: 24px;
+}
+
+.product p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.product ul {
+    list-style-type: circle;
+    padding-left: 25px;
+}
+
+.product a {
+    display: inline-block;
+
+    background-color: #3498db;
+    color: white;
+
+    padding: 10px 15px;
+    margin-top: 10px;
+
+    text-decoration: none;
+}
+
+.product a:hover {
+    background-color: #172b4d;
+}
+
+
+/* ------------------------------
+   Multicolumn Layout
+------------------------------ */
+
+.features {
+    width: 90%;
+    margin: 50px auto;
+}
+
+.columns {
+    column-count: 3;
+    column-gap: 30px;
+    background-color: white;
+
+    padding: 25px;
+
+    line-height: 1.6;
+}
+
+.columns div {
+    break-inside: avoid;
+}
+
+.columns h3 {
+    color: #1d5d9b;
+}
+
+
+/* ------------------------------
+   Footer
+------------------------------ */
+
+footer {
+    background-color: #172b4d;
+    color: white;
+
+    text-align: center;
+
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+    margin-top: 40px;
+}
+
+
+/* ------------------------------
+   Responsive Design
+------------------------------ */
+
+/* Tablet */
+
+@media screen and (max-width: 768px) {
+
+    header h1 {
+        font-size: 32px;
+    }
+
+    nav a {
+        display: block;
+        margin: 5px auto;
+        width: 80%;
+    }
+
+    .columns {
+        column-count: 2;
+    }
+}
+
+
+/* Mobile */
+
+@media screen and (max-width: 480px) {
+
+    header h1 {
+        font-size: 25px;
+        letter-spacing: 1px;
+    }
+
+    header p {
+        font-size: 15px;
+    }
+
+    .intro {
+        width: 95%;
+        padding: 15px;
+    }
+
+    .products {
+        width: 95%;
+    }
+
+    .product {
+        padding: 18px;
+    }
+
+    .columns {
+        column-count: 1;
+    }
+
+    .section-title {
+        font-size: 24px;
+    }
+}
